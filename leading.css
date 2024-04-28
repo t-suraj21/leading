@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+.navbar{
+    height: 40px;
+    background-color:rgba(107, 128, 0, 0.658);
+    color: white;
+    display: flex;
+}
+.navlogo{
+    font-size:medium;
+    font-weight: 700;
+    font-style: normal;
+    padding: 0.6%;
+    margin-left: 20rem;
+}
+.nav{
+    display: inline-flex;
+    margin-left: 20rem;
+    padding: 0.6%;
+    gap: 35px;
+    cursor: pointer;
+}
+.nav :hover{
+   padding:1px;
+}
+ .nav-buy{
+    padding:0.4%;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10%;
+    font-weight: 700;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    margin-left: 5rem;
+    cursor: pointer;
+} 
+.heropage{
+    background-image: url('pic.jpg');
+    background-size: cover;
+    height: 400px;
+    color:black;
+}
+/* h1{
+    padding: 11%;
+} */
+.section1{
+    display:inline-flex;
+    gap:100px;
+    padding:3%;
+    margin-left: 15rem;
+    cursor: pointer;
+}
+.border{
+    border: 50px  black;
+}
+.section2{
+    background-color:cornsilk;
+   height: 70px;
+   color: white;
+   display: flex;
+}
+h1{
+    margin-top: 0.9rem;
+    margin-left: 40rem;
+    height:25%;
+    width: 25%;
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 3%;
+}
+.section3 {
+    display:flex; 
+    margin-top: 2rem;
+    height:324px;
+    width: 76rem;
+    gap: 400px;  
+}
+
+.image {
+    background-image: url("watch\ \(2\).2.jpeg");
+    background-size: cover; 
+    width: 180%;
+    margin-left: 20rem;
+    border-radius: 11%;
+    border-style:double;
+}
+.details{
+    margin-top: 4rem;
+   margin-right: 5rem;
+}
+/* section 4 */
+.section4 {
+    background-color:floralwhite;
+    display:flex; 
+    margin-top: 5rem;
+    width: 95rem;
+    gap: 400px;  
+}
+.img{
+    background-image: url("watch\ \(2\).2.jpeg");
+    background-size: cover; 
+    height: 350px;
+    width: 18%;
+    border-radius: 15%;
+    border-style:groove;
+}
+.Details{
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+.button{
+    border-radius: 20%;
+    background-color: bisque;
+    cursor: pointer;
+    font-size: medium;
+}
+.button :hover{
+    background-color: 2px solid yellow;
+}
+/* section 5 */
+.section5{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    background-color:cadetblue;
+    height:290px;
+    
+}
+.about i{
+    padding:0.1%;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    font-weight: 700;
+    font-size: x-large;
+    cursor: pointer;
+}
+.about :hover{
+    padding :1px;
+}
+.info{
+    margin-top: 5rem;
+    margin-left: 65%;
+    font-size:large;
+}

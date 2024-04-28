@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.more li{
+    background-color: black;
+    color: aliceblue;
+    margin-top: 2rem;
+    width: 20rem;
+    border-radius: 10px;
+    margin-left: 2%;
+}
